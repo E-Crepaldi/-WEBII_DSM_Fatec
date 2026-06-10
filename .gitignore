@@ -1,0 +1,18 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Variaveis de ambiente / segredos
+.env
+
+# Arquivos de IDE
+.vscode/
+.idea/
+
+# Flask
+instance/
+*.log
