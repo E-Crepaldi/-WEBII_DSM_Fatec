@@ -1,0 +1,13 @@
+{% extends "paginas/layout.html" %}
+
+{% block conteudo %}
+<h1>Lista de Exercícios Flask - WEB II</h1>
+<ul>
+    <li><a href="/message">GET /message</a></li>
+    <li><a href="/message/200">GET /message/&lt;status&gt;</a></li>
+    <li><a href="/search?q=python">GET /search?q=python</a></li>
+    <li><a href="/convert/celsius/100.0">GET /convert/celsius/100.0</a></li>
+    <li><a href="/products">GET /products</a></li>
+    <li><a href="/admin/dashboard">GET /admin/dashboard</a></li>
+</ul>
+{% endblock %}
